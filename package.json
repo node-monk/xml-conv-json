@@ -1,15 +1,31 @@
 {
-  "name": "xml-to-json",
+  "name": "xml-conv-json",
   "version": "1.0.0",
   "description": "Wrapping xml2json C++ library",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
   },
   "author": "Michael Watson",
   "license": "MIT",
   "gypfile": true,
   "dependencies": {
     "nan": "^2.0.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaxmonk/xml-conv-json.git"
+  },
+  "keywords": [
+    "xml2json",
+    "xml",
+    "json",
+    "c++",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/ajaxmonk/xml-conv-json/issues"
+  },
+  "homepage": "https://github.com/ajaxmonk/xml-conv-json#readme"
 }
