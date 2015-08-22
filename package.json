@@ -1,0 +1,15 @@
+{
+  "name": "xml-to-json",
+  "version": "1.0.0",
+  "description": "Wrapping xml2json C++ library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Watson",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.0.5"
+  }
+}
