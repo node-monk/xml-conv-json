@@ -1,14 +1,14 @@
 # xml-conv-json
-Node Module that converts XML to JSON using a C++ Module
-
-This module has the advantage of using C++ to crunch the XML and return it as JSON instead of using Node for such an intensive operation.
+Node Module that converts XML to JSON using C++
 
 It is simply a wrapper for the  https://github.com/Cheedoong/xml2json C++ library
+
+The advantage comes with using C++ to crunch the XML and return it as JSON instead of using Node for such an intensive operation.
 
 
 ## Install
 
-node gyp will need to be installed globally. You can install it with
+node-gyp will need to be installed globally. You can install it with
 ```
 
   npm install -g node-gyp
