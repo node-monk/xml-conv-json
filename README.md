@@ -25,12 +25,12 @@ Install xml-conv-json package
 ## Use
 
 ```javascript
-  var parseXML=require('xml-conv-json');
+
+  var xmlConvJson=require('xml-conv-json');
   
-  var jsonObj=parseXML(xmlString);
-
+  var jsonObj=xmlConvJson.parseXML(xmlString);
+  
 ```
-
 
 
 ## To Do
